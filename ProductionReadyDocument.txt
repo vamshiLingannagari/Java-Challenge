@@ -1,4 +1,4 @@
-Steps to make the Application Production Ready:
+Steps to make the Application Production Ready:-
 ----------------------------------------------
 
 1) Create a Docker Image of the Application
