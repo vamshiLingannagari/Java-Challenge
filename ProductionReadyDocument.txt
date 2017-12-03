@@ -7,7 +7,6 @@ Steps to make the Application Production Ready:-
    test the uniform working of the docker container across deployments
 
 3) If there is a Spring Cloud Implementation in the projec using netflix oss:
-
     (1)  Add a "Java Challenge" directory under the Spring Configuration Boot Application
            to centralize the application's configuration information for all dev,test and
            prod environments.
