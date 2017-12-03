@@ -1,0 +1,20 @@
+Steps to make the Application Production Ready:
+----------------------------------------------
+
+1) Create a Docker Image of the Application
+
+2) Writing Tests using the Arquillian Cube framework and container objects to 
+   test the uniform working of the docker container across deployments
+
+3) If there is a Spring Cloud Implementation in the projec using netflix oss:
+    (1)  Add a "Java Challenge" directory under the Spring Configuration Boot Application
+           to centralize the application's configuration information for all dev,test and
+           prod environments.
+    (2)  link the Application to the Eureka Server for service registration and discovery
+         by adding the eureka server url to the application.yml file
+    (3)  Include the application service name in the Zuul routes Application to connect with 
+         the external gateway for interaction with the world
+    (4)  For security configure the authoriztion and authentication information for the application
+         in the Spring Boot oauth application.
+
+4) Deploy containers of the docker image whereever needed by pulling and running the docker image.
