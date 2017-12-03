@@ -17,6 +17,6 @@ Steps to make the Application Production Ready:-
     (4)  For security configure the authoriztion and authentication information for the application
          in the Spring Boot oauth application.
     (5)  Then done
-    (5)
+    (6)
 
 4) Deploy containers of the docker image whereever needed by pulling and running the docker image.
